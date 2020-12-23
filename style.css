@@ -1,0 +1,83 @@
+h1{
+    color:red;
+    margin-left: 100px;
+    padding-bottom: 40px;
+}
+
+/**{border:solid}*/
+
+
+.Header{
+   /* background-color: aqua;*/
+    display : flex;
+    justify-content: space-between;
+    
+}
+
+.Middle{
+   /* background-color: burlywood;*/
+    display : flex;
+    justify-content: space-evenly;
+}
+
+.Footer{
+    /*background-color: chartreuse;*/
+    display : flex;
+    justify-content: flex-end;
+}
+
+body{
+    background-color:black;
+    font-size: xx-large;
+    color:blueviolet;
+    font-style: oblique;
+}
+
+a:link{
+    color:yellowgreen;
+}
+
+a:visited{
+    color: tomato;
+}
+
+a:hover{
+    color:teal;
+}
+
+.subHeader{
+    margin-top: 60px;
+    margin-right: 20px;
+}
+
+.subHeader a{
+    margin-left: 20px;
+}
+
+.subMiddle{
+    position: relative;
+}
+
+.subMiddle h2{
+    position:absolute;
+    top: 50%;
+    left: 20%;
+    opacity: 0;
+}
+
+.subMiddle:hover h2{
+    opacity: 1;
+}
+
+.subMiddle:hover img{
+    opacity: 0.33;
+}
+
+body p1{
+    color: darkorange;
+}
+
+
+
+
+
